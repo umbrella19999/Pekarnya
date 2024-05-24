@@ -1,6 +1,8 @@
 body {
     background-color: #ECDDB6;
     font-family: "Pangolin", cursive;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     font-family: "Pangolin", cursive;
