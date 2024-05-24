@@ -71,4 +71,8 @@ a {
     height: 250px;
     font-size: 10px;
 }
+    body {
+    margin: 0;
+    padding: 0;
+}
     }
