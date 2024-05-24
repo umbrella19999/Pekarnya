@@ -1,0 +1,100 @@
+body {
+    background-color: #ECDDB6;
+}
+h1 {
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 35px;
+    text-align: center;
+}
+header {
+    
+    justify-content: center;
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 25px;
+    text-align: center;      
+}
+a {
+    text-decoration: underline #f1ce96;
+    color: black;
+}
+main {
+    font-family: "Pangolin", cursive;
+      ;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+}
+input{
+    width: 98%;
+    background-position: 50% 50%;
+    outline: none;
+    height: 30px;
+    
+    border-radius: 10px;
+   background-color: #f1ce96;
+}
+.chat {
+    background-color: rgba(231, 179, 101, 0.815);
+    width: 50%;
+    height: 400px;
+    margin: 1px auto;
+    border-radius: 20px;
+    padding: 230px 0 0 0;
+    box-sizing: border-box;
+}
+.mes {
+    background-color: rgb(255, 233, 184);
+    padding: 15px;
+    height: 80px;
+    width: 320px;
+    border-radius: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+footer {
+    margin: 150px 0 0 0 ;
+    background-color: #81724ca6;
+    height: 300px;
+    display: flex;
+    
+}.fot {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: "Pangolin", cursive;
+    
+}
+
+@media (max-width:768px) {
+main {
+    padding: 0;
+    margin: 0;
+}
+.chat {
+    margin: 0;
+    width: 100%;
+}
+.mes {
+    margin: 20px  5px;
+}
+footer {
+    margin: 150px 0 0 0 ;
+    background-color: #81724ca6;
+    height: 250px;
+    font-size: 10px;
+}
+h1 , h2 , h3  {
+    font-size: small;
+}
+.mes {
+    width: 200px;
+    font-size: small;
+}
+
+
+
+
+}

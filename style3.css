@@ -1,0 +1,58 @@
+body {
+    background-color: #ECDDB6;
+}
+h1 {
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 35px;
+    text-align: center; 
+
+
+}
+header {
+    margin: 0 0 100px 0;
+    justify-content: center;
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 25px;
+    text-align: center;      
+}
+a {
+    text-decoration: underline #f1ce96;
+    color: black;
+}
+main {
+  
+    align-self: center
+
+}
+.map {
+   
+    display: flex;
+    justify-content: center;
+}
+footer {
+    margin: 150px 0 0 0 ;
+    background-color: #81724ca6;
+    height: 300px;
+    display: flex;
+    
+}.fot {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: "Pangolin", cursive;
+    
+}
+@media (max-width:768px) {
+ 
+    footer {
+        margin: 150px 0 0 0 ;
+        background-color: #81724ca6;
+        height: 250px;
+        font-size: 10px;
+        
+    
+      
+    }
+    }

@@ -1,0 +1,117 @@
+body {
+    background-color: #ECDDB6;
+}
+h1 {
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 35px;
+    text-align: center; 
+
+
+}
+header {
+    margin: 0 0 100px 0;
+    justify-content: center;
+    font-family: "Pangolin", cursive;
+    text-decoration: underline #CA9A4E   ;
+    font-size: 25px;
+    text-align: center;      
+}
+a {
+    text-decoration: underline #f1ce96;
+    color: black;
+}
+
+h3 {
+text-decoration: none;
+text-align: center;      
+font-family: "Pangolin", cursive;
+
+}
+
+
+.card {
+    background-color: #caa97379;
+    width: 25%;
+    height: 600px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+    
+    
+    
+    
+}
+.a {
+    color: #ECDDB6;
+}
+img {
+margin: 5% 5% 0 5%;
+width: 90%;
+height: 47%;
+}
+p {
+    text-decoration: none;
+    text-align: center;      
+    font-family: "Pangolin", cursive;  
+  margin: 4px;
+}
+.go {
+    background-color: rgb(241, 200, 109);
+    height: 10%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Pangolin", cursive;  
+    
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+footer {
+    margin: 150px 0 0 0 ;
+    background-color: #81724ca6;
+    height: 300px;
+    display: flex;
+    
+}.fot {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: "Pangolin", cursive;
+    
+}
+
+
+@media (max-width:768px) {
+main {
+    display: block;
+    margin: 0;
+}
+.box {
+    display: block;
+}
+.card {
+width: 80%;
+height: 550px;
+}
+img {
+    height: 40%;
+}
+footer {
+    margin: 150px 0 0 0 ;
+    background-color: #81724ca6;
+    height: 250px;
+    font-size: 10px;
+    
+
+  
+}
+}
